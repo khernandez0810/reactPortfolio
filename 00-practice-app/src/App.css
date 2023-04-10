@@ -1,0 +1,11 @@
+.footer{
+    position:fixed;
+    bottom: 10px;
+    left:0;
+    right:0;
+    height: 30px;
+    font-size:xx-large;
+}
+.footer-icon{
+padding: 0px 20px 0px 20px;
+}
