@@ -6,7 +6,7 @@ function Header({currentPage, handlePageChange}) {
   return (
     <>
     <div className="">
-      <h3 className="m-3 display-5">Kevin Hernandez</h3>
+      <h3 className="title m-3 display-5">Kevin Hernandez</h3>
     </div>
     <div className=" d-flex justify-content-end">
         <nav className=" navbar navbar-expand-lg navbar-light ">

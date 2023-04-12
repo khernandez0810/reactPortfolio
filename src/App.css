@@ -100,5 +100,8 @@ font-size:large;
     .resume-text {
         color:white
     }
+    .title{
+        text-align: center;
+    }
     
 } 
