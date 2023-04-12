@@ -7,14 +7,14 @@ export default function Resume() {
     <div class="resume-container card-container d-flex flex-wrap justify-content-center">
   <div class="px-5 text-center backEndCard">
     <h2 className=''>Back-End Proficiencies</h2>
-    <ul style={{listStyle: 'none'}}>
+    <ol style={{listStyle: 'none'}}>
       <li>Node</li>
       <li>Express</li>
       <li>API (Web, Server, 3rd Party)</li>
       <li>SQL</li>
       <li>MongoDB</li>
       <li>Javascript</li>
-    </ul>
+    </ol>
   </div>
   <div class="px-5 text-center frontEndCard">
     <h2>Front-end Proficiencies</h2>

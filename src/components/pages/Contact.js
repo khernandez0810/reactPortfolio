@@ -17,7 +17,7 @@ export default function Contact() {
   <label for="textArea1" class="form-label">Message</label>
   <textarea placeholder='Shoot me a message!' class="form-control" id="textarea" rows="3"></textarea>
 </div>
-<button type="submit" class="ml-auto btn btn-dark">Submit</button>
+<button type="submit" class="w-25 my-5 ml-auto btn btn-dark">Submit</button>
     </div>
     </form>
   );
