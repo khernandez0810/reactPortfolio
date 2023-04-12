@@ -25,7 +25,8 @@ color: seagreen;
 font-size:35px;
 }
 .footer-icon:hover{
-color: white
+color: white;
+transition: .25s;
     }
 .about-text {
     padding: 0 200px 0 200px

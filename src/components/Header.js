@@ -11,7 +11,7 @@ function Header({currentPage, handlePageChange}) {
     <div className=" d-flex justify-content-end">
         <nav className=" navbar navbar-expand-lg navbar-light ">
   <button className=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="= menu-icon navbar-toggler-icon"></span>
+    <span class=" menu-icon navbar-toggler-icon"></span>
   </button>
   <div className="navbar collapse navbar-collapse" id="navbarNavAltMarkup">
     <div className="text-center h3 navbar-nav w-100">
