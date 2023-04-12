@@ -2,7 +2,7 @@ import React  from "react";
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
-function Header() {
+function Header({currentPage, handlePageChange}) {
   return (
     <>
     <div className="">
@@ -15,10 +15,10 @@ function Header() {
   </button>
   <div className="navbar collapse navbar-collapse" id="navbarNavAltMarkup">
     <div className="text-center h3 navbar-nav w-100">
-    <a className={"nav-item nav-link " + (window.location.pathname === "/about" ? "active" : "")} href="/about"><i class="fa-solid fa-user"></i>About</a>
-    <a className={"nav-item nav-link " + (window.location.pathname === "/portfolio" ? "active" : "")} href="/portfolio"><i class="fa-solid fa-diagram-project"></i>Portfolio</a>
-      <a className={"nav-item nav-link " + (window.location.pathname === "/resume" ? "active" : "")} href="/resume"><i class="fa-solid fa-id-card"></i>Resume</a>
-      <a className={"nav-item nav-link " + (window.location.pathname === "/contact" ? "active" : "")} href="/contact"><i class="fa-sharp fa-solid fa-address-card"></i>Contact</a>
+    <a onClick={() => handlePageChange('about')}  className={currentPage === 'about' ? 'nav-item nav-link active' : 'nav-link'} href="#about"><i class="fa-solid fa-user"></i>About</a>
+    <a onClick={() => handlePageChange('portfolio')}  className={currentPage === 'portfolio' ? 'nav-link active' : 'nav-link'} href="#portfolio"><i class="fa-solid fa-diagram-project"></i>Portfolio</a>
+    <a onClick={() => handlePageChange('resume')}  className={currentPage === 'resume' ? 'nav-link active' : 'nav-link'} href="#resume"><i class="fa-solid fa-id-card"></i>Resume</a>
+    <a onClick={() => handlePageChange('contact')}  className={currentPage === 'contact' ? 'nav-link active' : 'nav-link'} href="#contact"><i class="fa-sharp fa-solid fa-address-card"></i>Contact</a>
     </div>
   </div>
 </nav>
