@@ -2,7 +2,7 @@ import React from 'react';
 import Kevin from '../../assets/images/kevin.png'
 export default function About() {
   return (
-    <div className='pb-5'>
+    <div className='text-center pb-5'>
       <div>
       <h1 className="pt-5 text-center">About Me</h1>
       <p className="pt-5 pb-5 about-text">Hello! My name is Kevin. I am a graduate of University of Central Florida with a bachelor's in Health sciences. 
