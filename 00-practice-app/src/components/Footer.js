@@ -1,7 +1,7 @@
 import React from 'react';
 export default function Footer() {
   return (
-    <footer className="footer mb-4 text-center">
+    <footer className="footer footer--pin mb-4 text-center">
     <a className='footer-icon'
        href="#!"
        role="button"

@@ -1,11 +1,86 @@
+* {
+}
+.App {
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inconsolata', monospace;
+
+  }
+body {
+    background-image:    url(./assets/images/bgImg.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+  }
 .footer{
-    position:fixed;
-    bottom: 10px;
-    left:0;
-    right:0;
-    height: 30px;
+    margin-top: auto;
     font-size:xx-large;
+    text-align: center;
+    width: 100%;
+  
 }
 .footer-icon{
-padding: 0px 20px 0px 20px;
+padding: 0 20px 0 20px;
+color: seagreen
 }
+.about-text {
+    padding: 0 200px 0 200px
+}
+.navibar {
+    margin:auto;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.kevin{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    max-height: 20%;
+
+}
+.button {
+    background-color: seagreen;
+    color:aqua
+}
+.project {
+    background-color: seagreen;
+}
+.project-text {
+    color:white;
+    padding: 10px;
+}
+.navbar a {
+    color: seagreen
+}
+h3 {
+    color:seagreen
+}
+ .active {
+    color: seagreen;
+}
+.menu-icon{
+    color:white;
+}
+.nav-link i {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 780px) {
+    .menu-icon{
+        visibility: visible;
+    }
+    .navibar {
+        padding: 0;
+    }
+    .navbar {
+         width: 100vw;
+    }
+    .about-text{
+        padding: 0 20px 25px 20px;
+    }
+} 
