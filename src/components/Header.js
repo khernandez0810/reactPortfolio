@@ -18,7 +18,7 @@ function Header({currentPage, handlePageChange}) {
     <a onClick={() => handlePageChange('about')}  className={currentPage === 'about' ? 'nav-item nav-link active' : 'nav-link'} href="#about"><i class="fa-solid fa-user"></i>About</a>
     <a onClick={() => handlePageChange('portfolio')}  className={currentPage === 'portfolio' ? 'nav-link active' : 'nav-link'} href="#portfolio"><i class="fa-solid fa-diagram-project"></i>Portfolio</a>
     <a onClick={() => handlePageChange('resume')}  className={currentPage === 'resume' ? 'nav-link active' : 'nav-link'} href="#resume"><i class="fa-solid fa-id-card"></i>Resume</a>
-    <a onClick={() => handlePageChange('contact')}  className={currentPage === 'contact' ? 'nav-link active' : 'nav-link'} href="#contact"><i class="fa-sharp fa-solid fa-address-card"></i>Contact</a>
+    <a onClick={() => handlePageChange('contact')}  className={currentPage === 'contact' ? 'nav-link active' : 'nav-link'} href="#contact"><i class="fa-solid fa-envelope"></i>Contact</a>
     </div>
   </div>
 </nav>
