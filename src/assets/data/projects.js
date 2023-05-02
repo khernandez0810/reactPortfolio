@@ -4,6 +4,7 @@ import noteTaker from '../images/noteTakerApp.png';
 import planner from '../images/dailyPlannerImg2.png';
 import blogpage from '../images/techBlogPic.png';
 import trivia from '../images/quizApp.png';
+import chopshop from '../images/chopShop.jpg'
 
 
 
@@ -55,6 +56,16 @@ const projects = [
         repoLink: 'https://github.com/khernandez0810/TriviaTime',
         deployLink: 'https://khernandez0810.github.io/TriviaTime/',
         description: 'A trivia quiz application allowing you to test your knowledge of current and past sports'
+    },
+    {   
+        id: 1,
+        name: 'Chop Shop TKO',
+        image: chopshop,
+        alt: 'tko app',
+        repoLink: 'https://github.com/gamesharks/chop-shop-tko',
+        deployLink: 'https://chop-shop-tko.herokuapp.com/',
+        description: 'An application with backend and front end server to place bets on MMA'
+
     },
 
 ]
