@@ -58,7 +58,7 @@ const projects = [
         description: 'A trivia quiz application allowing you to test your knowledge of current and past sports'
     },
     {   
-        id: 1,
+        id: 6,
         name: 'Chop Shop TKO',
         image: chopshop,
         alt: 'tko app',
