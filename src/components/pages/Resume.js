@@ -16,7 +16,7 @@ export default function Resume() {
       <li>Javascript</li>
     </ol>
   </div>
-  <div class="px-5 text-center frontEndCard">
+  <div className="px-5 text-center frontEndCard">
     <h2>Front-end Proficiencies</h2>
     <ol style={{listStyle: 'none'}}>
       <li>HTML</li>
@@ -30,9 +30,10 @@ export default function Resume() {
 </div>
     <h3 className='resume-text py-5'>Download Resume
     </h3>
-       <a href="./assets/docs/KH.Resume.pdf" download>
-       <button type="button" class="mb-5 btn btn-dark btn-lg"><i style={{paddingRight: "10px"}} className=" fa-solid fa-download"></i>Download Resume</button>
+       <a href="/public/docs/KHResume.pdf" download>
+       <button type="button" className="mb-5 btn btn-dark btn-lg"><i style={{paddingRight: "10px"}} className=" fa-solid fa-download"></i>Download Resume</button>
        </a>
+       
        </div>
   );
 }
