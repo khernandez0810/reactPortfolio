@@ -1,5 +1,5 @@
 import React from 'react';
-
+import resume from "../../assets/docs/resume.pdf"
 export default function Resume() {
   return (
     <div className='text-center'>
@@ -30,7 +30,7 @@ export default function Resume() {
 </div>
     <h3 className='resume-text py-5'>Download Resume
     </h3>
-       <a href="/public/docs/KHResume.pdf" download>
+       <a href={resume} download="Kevin's Resume">
        <button type="button" className="mb-5 btn btn-dark btn-lg"><i style={{paddingRight: "10px"}} className=" fa-solid fa-download"></i>Download Resume</button>
        </a>
        
