@@ -30,7 +30,7 @@ export default function Resume() {
 </div>
     <h3 className='resume-text py-5'>Download Resume
     </h3>
-       <a href={resume} download="Kevin's Resume">
+       <a href="https://drive.google.com/file/d/1-YONnkhCDBpUPFuk5rhLxcA6PMpXSWV4/view?usp=sharing">
        <button type="button" className="mb-5 btn btn-dark btn-lg"><i style={{paddingRight: "10px"}} className=" fa-solid fa-download"></i>Download Resume</button>
        </a>
        
