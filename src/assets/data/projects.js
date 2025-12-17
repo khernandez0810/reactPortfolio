@@ -13,6 +13,25 @@ import wedding from '../images/wedding.png'
 
 
 const projects = [
+            {   
+        id: 7,
+        name: 'Wedding Website',
+        image: wedding,
+        alt: 'tko app',
+        repoLink: 'https://github.com/khernandez0810/wedding',
+        deployLink: 'kevin-cindy.com',
+        description: 'Personal wedding website created with React, Cloudflare'
+    },
+        {   
+        id: 8,
+        name: 'Interpreters Connect Business site',
+        image: IC,
+        alt: 'IC',
+        repoLink: 'https://github.com/khernandez0810/IC',
+        deployLink: 'Interpretersconnectllc.com',
+        description: 'Business page advertising services'
+
+    },
     {   
         id: 1,
         name: 'WeatherMate',
@@ -50,25 +69,6 @@ const projects = [
         repoLink: 'https://github.com/gamesharks/chop-shop-tko',
         deployLink: 'https://github.com/gamesharks/chop-shop-tko',
         description: 'An application with backend and front end server to place bets on MMA'
-
-    },
-        {   
-        id: 7,
-        name: 'Wedding Website',
-        image: wedding,
-        alt: 'tko app',
-        repoLink: 'https://github.com/khernandez0810/wedding',
-        deployLink: 'kevin-cindy.com',
-        description: 'Personal wedding website created with React, Cloudflare'
-    },
-        {   
-        id: 8,
-        name: 'Interpreters Connect Business site',
-        image: IC,
-        alt: 'IC',
-        repoLink: 'https://github.com/khernandez0810/IC',
-        deployLink: 'Interpretersconnectllc.com',
-        description: 'Business page advertising services'
 
     },
 
