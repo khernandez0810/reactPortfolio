@@ -1,5 +1,4 @@
 import React from 'react';
-import resume from "../../assets/docs/resume.pdf"
 export default function Resume() {
   return (
     <div className='text-center'>
