@@ -1,9 +1,7 @@
 
 import weatherPic from '../images/weathermateImg.png';
-import noteTaker from '../images/noteTakerApp.png';
 import planner from '../images/dailyPlannerImg2.png';
 import blogpage from '../images/techBlogPic.png';
-import trivia from '../images/quizApp.png';
 import chopshop from '../images/chopShop.jpg';
 import IC from '../images/IC.png';
 import wedding from '../images/wedding.png'
