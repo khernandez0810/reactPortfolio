@@ -4,7 +4,9 @@ import noteTaker from '../images/noteTakerApp.png';
 import planner from '../images/dailyPlannerImg2.png';
 import blogpage from '../images/techBlogPic.png';
 import trivia from '../images/quizApp.png';
-import chopshop from '../images/chopShop.jpg'
+import chopshop from '../images/chopShop.jpg';
+import IC from '../images/IC.png';
+import wedding from '../images/wedding.png'
 
 
 
@@ -27,7 +29,7 @@ const projects = [
         image: noteTaker,
         alt: 'pic of note taker app',
         repoLink: 'https://github.com/khernandez0810/Note-Taker-application',
-        deployLink: 'https://warm-sierra-20051.herokuapp.com/',
+        deployLink: 'https://github.com/khernandez0810/Note-Taker-application',
         description: 'An application allowing you to add and delete your notes to keep track of your day'
     },
     {
@@ -63,8 +65,27 @@ const projects = [
         image: chopshop,
         alt: 'tko app',
         repoLink: 'https://github.com/gamesharks/chop-shop-tko',
-        deployLink: 'https://chop-shop-tko.herokuapp.com/',
+        deployLink: 'https://github.com/gamesharks/chop-shop-tko',
         description: 'An application with backend and front end server to place bets on MMA'
+
+    },
+        {   
+        id: 7,
+        name: 'Wedding Website',
+        image: wedding,
+        alt: 'tko app',
+        repoLink: 'https://github.com/khernandez0810/wedding',
+        deployLink: 'kevin-cindy.com',
+        description: 'Personal wedding website created with React, Cloudflare'
+    },
+        {   
+        id: 8,
+        name: 'Interpreters Connect Business site',
+        image: IC,
+        alt: 'IC',
+        repoLink: 'https://github.com/khernandez0810/IC',
+        deployLink: 'Interpretersconnectllc.com',
+        description: 'Business page advertising services'
 
     },
 
